@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DAF4AF922CC544E007A1DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF4AF822CC544E007A1DA5 /* AppDelegate.swift */; };
+		6DAF4AFB22CC544E007A1DA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF4AFA22CC544E007A1DA5 /* ViewController.swift */; };
+		6DAF4AFE22CC544E007A1DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DAF4AFC22CC544E007A1DA5 /* Main.storyboard */; };
+		6DAF4B0122CC544E007A1DA5 /* VHS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF4AFF22CC544E007A1DA5 /* VHS.xcdatamodeld */; };
+		6DAF4B0322CC544F007A1DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DAF4B0222CC544F007A1DA5 /* Assets.xcassets */; };
+		6DAF4B0622CC544F007A1DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DAF4B0422CC544F007A1DA5 /* LaunchScreen.storyboard */; };
+		6DAF4B1122CC544F007A1DA5 /* VHSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF4B1022CC544F007A1DA5 /* VHSTests.swift */; };
+		6DAF4B1C22CC544F007A1DA5 /* VHSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF4B1B22CC544F007A1DA5 /* VHSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DAF4B0D22CC544F007A1DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DAF4AED22CC544E007A1DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DAF4AF422CC544E007A1DA5;
+			remoteInfo = VHS;
+		};
+		6DAF4B1822CC544F007A1DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DAF4AED22CC544E007A1DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DAF4AF422CC544E007A1DA5;
+			remoteInfo = VHS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DAF4AF522CC544E007A1DA5 /* VHS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VHS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAF4AF822CC544E007A1DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DAF4AFA22CC544E007A1DA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DAF4AFD22CC544E007A1DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DAF4B0022CC544E007A1DA5 /* VHS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VHS.xcdatamodel; sourceTree = "<group>"; };
+		6DAF4B0222CC544F007A1DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DAF4B0522CC544F007A1DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DAF4B0722CC544F007A1DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DAF4B0C22CC544F007A1DA5 /* VHSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VHSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAF4B1022CC544F007A1DA5 /* VHSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHSTests.swift; sourceTree = "<group>"; };
+		6DAF4B1222CC544F007A1DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DAF4B1722CC544F007A1DA5 /* VHSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VHSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAF4B1B22CC544F007A1DA5 /* VHSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHSUITests.swift; sourceTree = "<group>"; };
+		6DAF4B1D22CC544F007A1DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DAF4AF222CC544E007A1DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAF4B0922CC544F007A1DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAF4B1422CC544F007A1DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DAF4AEC22CC544E007A1DA5 = {
+			isa = PBXGroup;
+			children = (
+				6DAF4AF722CC544E007A1DA5 /* VHS */,
+				6DAF4B0F22CC544F007A1DA5 /* VHSTests */,
+				6DAF4B1A22CC544F007A1DA5 /* VHSUITests */,
+				6DAF4AF622CC544E007A1DA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DAF4AF622CC544E007A1DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF4AF522CC544E007A1DA5 /* VHS.app */,
+				6DAF4B0C22CC544F007A1DA5 /* VHSTests.xctest */,
+				6DAF4B1722CC544F007A1DA5 /* VHSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DAF4AF722CC544E007A1DA5 /* VHS */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF4AF822CC544E007A1DA5 /* AppDelegate.swift */,
+				6DAF4AFA22CC544E007A1DA5 /* ViewController.swift */,
+				6DAF4AFC22CC544E007A1DA5 /* Main.storyboard */,
+				6DAF4B0222CC544F007A1DA5 /* Assets.xcassets */,
+				6DAF4B0422CC544F007A1DA5 /* LaunchScreen.storyboard */,
+				6DAF4B0722CC544F007A1DA5 /* Info.plist */,
+				6DAF4AFF22CC544E007A1DA5 /* VHS.xcdatamodeld */,
+			);
+			path = VHS;
+			sourceTree = "<group>";
+		};
+		6DAF4B0F22CC544F007A1DA5 /* VHSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF4B1022CC544F007A1DA5 /* VHSTests.swift */,
+				6DAF4B1222CC544F007A1DA5 /* Info.plist */,
+			);
+			path = VHSTests;
+			sourceTree = "<group>";
+		};
+		6DAF4B1A22CC544F007A1DA5 /* VHSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF4B1B22CC544F007A1DA5 /* VHSUITests.swift */,
+				6DAF4B1D22CC544F007A1DA5 /* Info.plist */,
+			);
+			path = VHSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DAF4AF422CC544E007A1DA5 /* VHS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAF4B2022CC544F007A1DA5 /* Build configuration list for PBXNativeTarget "VHS" */;
+			buildPhases = (
+				6DAF4AF122CC544E007A1DA5 /* Sources */,
+				6DAF4AF222CC544E007A1DA5 /* Frameworks */,
+				6DAF4AF322CC544E007A1DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VHS;
+			productName = VHS;
+			productReference = 6DAF4AF522CC544E007A1DA5 /* VHS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DAF4B0B22CC544F007A1DA5 /* VHSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAF4B2322CC544F007A1DA5 /* Build configuration list for PBXNativeTarget "VHSTests" */;
+			buildPhases = (
+				6DAF4B0822CC544F007A1DA5 /* Sources */,
+				6DAF4B0922CC544F007A1DA5 /* Frameworks */,
+				6DAF4B0A22CC544F007A1DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DAF4B0E22CC544F007A1DA5 /* PBXTargetDependency */,
+			);
+			name = VHSTests;
+			productName = VHSTests;
+			productReference = 6DAF4B0C22CC544F007A1DA5 /* VHSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DAF4B1622CC544F007A1DA5 /* VHSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAF4B2622CC544F007A1DA5 /* Build configuration list for PBXNativeTarget "VHSUITests" */;
+			buildPhases = (
+				6DAF4B1322CC544F007A1DA5 /* Sources */,
+				6DAF4B1422CC544F007A1DA5 /* Frameworks */,
+				6DAF4B1522CC544F007A1DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DAF4B1922CC544F007A1DA5 /* PBXTargetDependency */,
+			);
+			name = VHSUITests;
+			productName = VHSUITests;
+			productReference = 6DAF4B1722CC544F007A1DA5 /* VHSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DAF4AED22CC544E007A1DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Rodrigo Miyashiro";
+				TargetAttributes = {
+					6DAF4AF422CC544E007A1DA5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6DAF4B0B22CC544F007A1DA5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6DAF4AF422CC544E007A1DA5;
+					};
+					6DAF4B1622CC544F007A1DA5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6DAF4AF422CC544E007A1DA5;
+					};
+				};
+			};
+			buildConfigurationList = 6DAF4AF022CC544E007A1DA5 /* Build configuration list for PBXProject "VHS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DAF4AEC22CC544E007A1DA5;
+			productRefGroup = 6DAF4AF622CC544E007A1DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DAF4AF422CC544E007A1DA5 /* VHS */,
+				6DAF4B0B22CC544F007A1DA5 /* VHSTests */,
+				6DAF4B1622CC544F007A1DA5 /* VHSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DAF4AF322CC544E007A1DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAF4B0622CC544F007A1DA5 /* LaunchScreen.storyboard in Resources */,
+				6DAF4B0322CC544F007A1DA5 /* Assets.xcassets in Resources */,
+				6DAF4AFE22CC544E007A1DA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAF4B0A22CC544F007A1DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAF4B1522CC544F007A1DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DAF4AF122CC544E007A1DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAF4B0122CC544E007A1DA5 /* VHS.xcdatamodeld in Sources */,
+				6DAF4AFB22CC544E007A1DA5 /* ViewController.swift in Sources */,
+				6DAF4AF922CC544E007A1DA5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAF4B0822CC544F007A1DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAF4B1122CC544F007A1DA5 /* VHSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAF4B1322CC544F007A1DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAF4B1C22CC544F007A1DA5 /* VHSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DAF4B0E22CC544F007A1DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DAF4AF422CC544E007A1DA5 /* VHS */;
+			targetProxy = 6DAF4B0D22CC544F007A1DA5 /* PBXContainerItemProxy */;
+		};
+		6DAF4B1922CC544F007A1DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DAF4AF422CC544E007A1DA5 /* VHS */;
+			targetProxy = 6DAF4B1822CC544F007A1DA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DAF4AFC22CC544E007A1DA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DAF4AFD22CC544E007A1DA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DAF4B0422CC544F007A1DA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DAF4B0522CC544F007A1DA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DAF4B1E22CC544F007A1DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DAF4B1F22CC544F007A1DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DAF4B2122CC544F007A1DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = VHS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmdevwork.VHS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DAF4B2222CC544F007A1DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = VHS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmdevwork.VHS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6DAF4B2422CC544F007A1DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = VHSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmdevwork.VHSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VHS.app/VHS";
+			};
+			name = Debug;
+		};
+		6DAF4B2522CC544F007A1DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = VHSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmdevwork.VHSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VHS.app/VHS";
+			};
+			name = Release;
+		};
+		6DAF4B2722CC544F007A1DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = VHSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmdevwork.VHSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VHS;
+			};
+			name = Debug;
+		};
+		6DAF4B2822CC544F007A1DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = VHSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmdevwork.VHSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VHS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DAF4AF022CC544E007A1DA5 /* Build configuration list for PBXProject "VHS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAF4B1E22CC544F007A1DA5 /* Debug */,
+				6DAF4B1F22CC544F007A1DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DAF4B2022CC544F007A1DA5 /* Build configuration list for PBXNativeTarget "VHS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAF4B2122CC544F007A1DA5 /* Debug */,
+				6DAF4B2222CC544F007A1DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DAF4B2322CC544F007A1DA5 /* Build configuration list for PBXNativeTarget "VHSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAF4B2422CC544F007A1DA5 /* Debug */,
+				6DAF4B2522CC544F007A1DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DAF4B2622CC544F007A1DA5 /* Build configuration list for PBXNativeTarget "VHSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAF4B2722CC544F007A1DA5 /* Debug */,
+				6DAF4B2822CC544F007A1DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DAF4AFF22CC544E007A1DA5 /* VHS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DAF4B0022CC544E007A1DA5 /* VHS.xcdatamodel */,
+			);
+			currentVersion = 6DAF4B0022CC544E007A1DA5 /* VHS.xcdatamodel */;
+			path = VHS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6DAF4AED22CC544E007A1DA5 /* Project object */;
+}
